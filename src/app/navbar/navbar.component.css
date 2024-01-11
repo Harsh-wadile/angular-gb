@@ -1,0 +1,47 @@
+nav {
+    /* Width:Fixed (1,928px);
+Height:Hug (122px);
+Left:-4px;
+Padding:31px, 166px, 31px, 166px;
+Gap:367px; */
+
+    display: inline-flex;
+    padding: 1.9375rem 7.375rem;
+    align-items: center;
+    gap: 38.4375rem;
+}
+
+.navbar-brand img {
+    width: 12.5625rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+}
+
+.navbar-nav {
+
+
+    display: flex;
+    align-items: baseline;
+    width: Hug (960px);
+    height: Hug (49px);
+    gap: 43px;
+    padding-left: 22rem;
+
+
+}
+
+/* .navbar-item{
+    color: var(--Text-Main, #303030);
+font-family: TT Firs Neue Trl;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.5rem; 
+letter-spacing: -0.025rem;
+} */
+.nav-img {
+    width: 3.0625rem;
+    height: 3.0625rem;
+    border-radius: 3.0625rem;
+    /* background: url(<assets\images\Ellipse 978.svg>), lightgray 50% / cover no-repeat; */
+}
