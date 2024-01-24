@@ -1,18 +1,8 @@
-@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
 
-/* .container{
-    Width:1620px;
-    Height:468px;
-    Top:200px;
-    Left:147px;
-} */
-
-.active-plan{
+.upcoming-plans{
     background: linear-gradient(188deg, rgba(61, 56, 208, 0.00) -2.37%, rgba(61, 56, 208, 0.10) 70.66%);
     height: 60rem;
-    
 }
-
 .bg-ripple-img-container{
     position: relative;
     padding-top: 3rem;
@@ -70,24 +60,8 @@
 .card-title{
     font-size: 1.3rem !important;
 }
-
-.active{
-    background-color: #6365EF !important;
-    color: #fff !important;
-    cursor: pointer;
-    text-decoration: none !important;
-}
-
-.plan-detailed-card{
-    position: relative;
-    width: 42rem;
-    height: 22rem;
-    top: -8rem;
-    left: 25rem;
-}
 .list-group-item:hover{
     background-color: #6365EF !important;
-    
 }
 .list-group li a {
     color: #747373;
@@ -98,14 +72,26 @@
     color: #fff !important;
     cursor: pointer;
 }
+
+.plan-detailed-card{
+    position: relative;
+    width: 42rem;
+    height: 45rem;
+    top: -8rem;
+    left: 25rem;
+    border-bottom: antiquewhite;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
 .main-details{
     width: 40rem;
-    height: 18rem;
+    height: 22rem;
     border-radius: 1.25rem;
     background: var(--BG-Light, #F5F6FD);
     backdrop-filter: blur(19px);
-    margin: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
 }
+
 h3{
     color: var(--Text-Main, #303030);
     font-family: MyFont-Bold;
@@ -151,25 +137,23 @@ h3{
 }
 .gb{
     color: #6365EF;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-size: 1.1rem;
     font-family: 'MyFont-medium';
 }
 .detailes{
     padding-top: 1rem;
     display: flex;
-}                       
+}
 .horizontal-line{
     position: absolute;
     width: 0.0625rem;
-    height: 13.0625rem;
-    top: 5rem;
-    left: 11rem;
+    height: 7.0625rem;
+    top: 4rem;
+    left: 13rem;
     background: rgba(0, 0, 0, 0.06);
 }
-.start-plan{
-    padding-left: 3rem;
-}
+
 .start-plan-img{
     padding-left: 1rem;
     height: 1.5rem;
@@ -179,11 +163,11 @@ h3{
 }
 .vertical-line{
     position: absolute;
-    width: 24.5rem;
+    width: 38rem;
     height: 0.0625rem;
     background: #E6E6E6;
     top: 11rem;
-    left: 11rem;
+    
 }
 .card-body h3{
     font-size: 1.5rem;
@@ -193,11 +177,11 @@ h3{
     width: 0.0625rem;
     height: 7rem;
     background: rgba(0, 0, 0, 0.06);
-    left: 23rem;
+    left: 27rem;
     top: 4rem;
 }
 .plan-status{
-    padding-left: 3rem;
+    padding-left: 4rem;
 }
 .plan-status-img{
     padding-left: 1rem;
@@ -205,23 +189,27 @@ h3{
 }
 .plan-ellips-img{
     width: 1rem;
-    height: 1rem;
-   
+    height: 1rem;  
 }
-.a{
+
+.inactive{
     padding-left: 1rem;
-    color: var(--States-Success, #00C853);
-    font-family: SF Pro Display;
-    font-size: 1.25rem;
+    color: #FF2C2C;
+    font-family: MyFont-regular;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 2.125rem; 
     letter-spacing: -0.025rem;
 }
+.active{
+    background-color: #6365EF !important;
+    color: #fff;
+    cursor: pointer;
+}
 .validity{
-    position: absolute;
-    top: 12rem;
-    left: 12.2rem;
+    
+    padding-left: 4rem;
 }
 .validity-img{
     padding-left: 1rem;
@@ -235,23 +223,65 @@ h3{
 }
 .validity-text{
     color: var(--Primary-Main, #6365EF);
-    font-family: SF Pro Display;
-    
+    font-family: MyFont-medium;   
     font-style: normal;
     font-weight: 300;
     line-height: 2.125rem; 
     letter-spacing: -0.03rem;
 }
+
 .bold{
     font-weight: 700;
 }
+
 .showing-page{
-    padding-top: 1rem;
+    padding-top: 2.5rem;
     padding-left: 1rem;
     font-size: 0.9rem;
     font-family: 'MyFont-medium';
 } 
 
-@media (max-width:991px) {
+.Note{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    /* font-size: 0.9rem; */
+    font-family: 'MyFont-medium';
+}
+.note-text{
+    font-size: 0.9rem;
+    width: 38rem;
+    letter-spacing: -0.03rem;
+    padding-top: 0.5rem;
+}
 
+.installations{
+    padding: 0.5rem 1.25rem 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    border-radius: 6.25rem;
+    border: 1px solid var(--Stroke-Primary, #6365EF);
+    background: var(--White, #FFF);
+    color: #6365EF;
+   
+   
+}
+.installation-img{
+    height: 1.2rem;
+    margin-left: 0.5rem;
+}
+.activate-now{
+    padding: 0.5rem 1.25rem 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    border-radius: 6.25rem;
+    border: 1px solid var(--Stroke-Primary, #6365EF);
+    background: #6365EF;
+    color: #fff;  
+    margin-left: 1rem;
+}
+.activate-img{
+    height: 1.2rem;
+    margin-left: 0.5rem;
 }

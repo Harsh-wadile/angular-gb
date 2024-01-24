@@ -6,7 +6,7 @@ Padding:31px, 166px, 31px, 166px;
 Gap:367px; */
 
     display: inline-flex;
-    padding: 1.9375rem 7.375rem;
+    padding: 0.5rem 7.375rem !important;
     align-items: center;
     gap: 38.4375rem;
 }
@@ -16,18 +16,14 @@ Gap:367px; */
     height: 3.75rem;
     flex-shrink: 0;
 }
-
+ 
 .navbar-nav {
-
-
     display: flex;
     align-items: baseline;
     width: Hug (960px);
     height: Hug (49px);
-    gap: 43px;
+    gap: 40px;
     padding-left: 22rem;
-
-
 }
 
 /* .navbar-item{
@@ -45,3 +41,18 @@ letter-spacing: -0.025rem;
     border-radius: 3.0625rem;
     /* background: url(<assets\images\Ellipse 978.svg>), lightgray 50% / cover no-repeat; */
 }
+
+@media (max-width: 991px){
+
+.navbar-nav{
+    .navbar-nav {
+        display: flex;
+        align-items: baseline;
+        gap: 40px;
+        padding-left: 10rem !important;
+    }
+
+}
+
+}
+       

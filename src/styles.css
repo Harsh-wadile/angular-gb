@@ -1,2 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+/* @import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl'); */
+
+@font-face{
+    font-family: "MyFont-regular";
+    src: url("assets/fonts/tt-firs-neue-trl-cufonfonts (1)/TT Firs Neue Trial Regular.ttf") format("truetype");
+    
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "MyFont-Bold";   
+    src: url("assets/fonts/tt-firs-neue-trl-cufonfonts (1)/TT Firs Neue Trial Bold.ttf");
+    font-weight:700;
+}
+
+@font-face{
+    font-family: "MyFont-medium";
+    src: url("assets/fonts/tt-firs-neue-trl-cufonfonts (1)/TT Firs Neue Trial Medium.ttf");
+    font-weight: 600;
+}
+
+body{
+    font-family: "MyFont-regular";
+}
